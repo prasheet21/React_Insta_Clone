@@ -1,0 +1,10 @@
+
+POST http://localhost:8080/registerUser
+Content-Type: application/json
+
+{
+    "name" : "prasheet pathak" , 
+    "username" : "prasheet21" , 
+    "email" : "prateekp@gmail.com" , 
+    "password" : "1234567890"
+}

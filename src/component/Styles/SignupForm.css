@@ -1,0 +1,81 @@
+*{
+    padding : 0 ;
+    margin : 0 ;
+}
+
+.signup-form{
+    margin : 30px auto ;
+    width:340px ;
+    display : flex ;
+    flex-direction : column ;
+    align-items: center;
+}
+
+.signup-details { 
+    border : 1px grey solid ;
+    padding : 20px 30px ;
+    width: inherit ;
+    background-color : white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.signup-details > form {
+    /* margin: 10px 20px ; */
+    width: inherit ;
+    display  : flex ;
+    flex-direction : column ;
+    align-items: center ;
+}
+
+.signup-details  form *{
+    padding : 3px 9px ;
+    margin-top : 6px ;
+    width :inherit ;
+    height : 30px ;
+}
+
+.signup-details form button{
+    background-color: #0095F6 ;
+    color: white;
+    margin-top : 15px ;
+    width : inherit ;
+    border-radius : 7px ;
+    font-size: 15px ;
+    cursor: pointer;
+}
+
+.signup-details p { 
+    text-align: center;
+    margin-top : 15px ;
+    color : grey;
+}
+
+.login-fb{
+    background-color: #0095F6 ;
+    color: white;
+    margin-top : 15px ;
+    width : inherit ;
+    padding : 8px 7px ;
+    border-radius : 7px ;
+    font-size: 15px ;
+    cursor: pointer;
+}
+
+.or{
+    color : grey ;
+    margin:14px 0 ;
+}
+
+.lower-text{
+    font-size : 13px ;
+}
+
+.login{
+    width : 100% ;
+    text-align: center;
+    margin: 20px 0px  ;
+    padding : 20px 0px ;
+    border : 1px grey solid ;
+}

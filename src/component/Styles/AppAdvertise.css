@@ -1,0 +1,9 @@
+.getApp > img{
+    margin-top : 20px ;
+    height : 45px ;
+    cursor: pointer;
+}
+
+.sec-img{
+    margin-left: 10px;
+}

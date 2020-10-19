@@ -1,0 +1,16 @@
+.external-phone-home {
+    width:31vw ;
+}
+
+.home-img{
+    position: relative;
+}
+
+.internal-phone-home{
+    transition : opacity 1s ;
+    height : 455px ;
+    /* min-width: 257px ; */
+    position: absolute; 
+    top : 15.51% ;
+    left : 32.8% ;
+}

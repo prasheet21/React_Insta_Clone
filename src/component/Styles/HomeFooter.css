@@ -1,0 +1,27 @@
+.footer{
+    margin : 40px ;
+    display : flex ;
+    justify-content: space-around;
+    flex-direction: inherit;
+}
+
+.quick-links{
+    display : flex ;
+    justify-content: space-evenly;
+    width: 800px;
+}
+
+.quick-links > a { 
+    cursor : pointer;
+    text-decoration: none;
+    color : #385185 ;
+}
+
+.quick-links > *{
+    font-size : 12px ;
+    font-weight: bold;
+}
+
+.cpy-rgt { 
+    color : grey ;
+}
