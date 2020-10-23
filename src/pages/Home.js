@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import HomeImage from '../component/HomeImage';
-import LoginForm from '../component/LoginForm';
-import HomeFooter from '../component/HomeFooter';
+import HomeImage from '../component/Home/HomeImage';
+import LoginForm from '../component/Home/LoginForm';
+import HomeFooter from '../component/Home/HomeFooter';
 
 
 const App = () => {

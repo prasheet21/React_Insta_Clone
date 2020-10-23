@@ -1,0 +1,57 @@
+.profile {
+    width:900px ;
+    margin : 0 auto ;
+}
+
+
+.profile-meta {
+    display: flex;
+    width:inherit ;
+    justify-content: space-evenly;
+    height : 230px ;
+    
+    background-color: white ;
+}
+
+.popularity{
+    display:flex ;
+    margin-top : 20px ;
+    font-weight: 500;
+    justify-content: space-evenly;
+    font-size : 19px ;
+}
+
+
+.user-details{
+    margin-top : 30px ;
+    display: flex;
+}
+.user-details * {
+    margin-left: 10px ;
+}
+.user-details p {
+    font-size : 27px ;
+    font-weight : 200 ;
+}
+.user-details > button {
+    background-color: white;
+    padding : 7px 10px ;
+    outline : none ;
+    border-radius : 7px ;
+    border : 1px solid black ;
+    cursor : pointer ;
+}
+
+.inner-nav { 
+    width:400px ;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto ;
+}
+.inner-nav *{
+    text-decoration: none ;
+    font-size : 18px ;
+    color : grey ;
+    margin-top : 12px ;
+    
+}

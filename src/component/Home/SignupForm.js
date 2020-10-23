@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import './Styles/SignupForm.css'
-import AppAdvertise from './AppAdvertise';
+import '../Styles/SignupForm.css'
+import AppAdvertise from '../AppAdvertise';
 import { Link } from 'react-router-dom';
 import HomeFooter from './HomeFooter';
 

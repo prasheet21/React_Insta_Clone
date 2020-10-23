@@ -1,0 +1,49 @@
+a{
+    text-decoration: none ;
+    color : black ;
+    font-size : 17px ;
+    font-weight : 600 ;
+}
+
+.dashboard-header{
+    /* height : 40px ; */
+    padding : 16px 0px;
+    margin-bottom: 20px ;
+    border-bottom: 1px solid rgba(0 , 0 , 0 , 0.2);
+}
+
+.brand-logo{
+    cursor: pointer;
+}
+
+.inner-header{
+    margin:0 auto ;
+    width:1000px ;
+    display : flex ;
+    justify-content: space-evenly;
+}
+
+.nav-links{
+    width:300px ;
+    display:flex ;
+    justify-content: space-evenly;
+}
+
+.nav-links *{
+    cursor: pointer;
+}
+
+.inner-header > p {
+    font-size : 20px ;
+}
+
+.search > input{
+    padding : 7px 3px ;
+    border-radius: 4px;
+    outline: none;
+    border:1px solid grey ;
+}
+.search-btn{
+    margin-left: 6px ;
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react' ;
 // import homeImg from '../Images/home-phones.jpg'
-import ss1 from '../Images/ss-1.jpg' ;
-import './Styles/HomeImage.css'
+
+import '../Styles/HomeImage.css'
 
 const HomeImage = () => {
     let [count , setCount] = useState(0) ;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, Redirect, useHistory } from 'react-router-dom';
-import AppAdvertise from './AppAdvertise';
-import './Styles/LoginForm.css'
+import AppAdvertise from '../AppAdvertise';
+import '../Styles/LoginForm.css'
 
 const LoginForm = () => {
     let [ credentials , setCredentials ] = useState({username : '' , password : ''}) ;
